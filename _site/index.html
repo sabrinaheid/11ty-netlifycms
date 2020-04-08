@@ -14,5 +14,16 @@
     <h2><a href="/posts/blog-post-2/">This is my other Title</a></h2>
     <em>2020-04-08</em>
 
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
     </body>
 </html>
