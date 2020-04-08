@@ -1,1 +1,1 @@
-11ty-demo
+Netlify CMS & 11ty
