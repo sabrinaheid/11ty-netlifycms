@@ -1,2 +1,3 @@
 **Playground**
-Netlify CMS & 11ty
+
+11ty Static Site Generator & Netlify CMS
